@@ -217,7 +217,7 @@ function extractChannelId(link) {
 function openPlayer(element) {
     let channelID = $(element).attr("data-id");
     if (channelID && channelID !== "default_channel") {
-        let playerLink = `player.html?channel_id=${channelID}`;
+        let playerLink = `player2.html?channel_id=${channelID}`;
         window.location.href = playerLink;
     } else {
         alert("Sorry, this channel is not available.");
